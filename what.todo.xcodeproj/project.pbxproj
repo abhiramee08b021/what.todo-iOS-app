@@ -13,6 +13,14 @@
 		7EACBA501C2558C400D05FCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EACBA4F1C2558C400D05FCF /* Assets.xcassets */; };
 		7EACBA531C2558C400D05FCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EACBA511C2558C400D05FCF /* LaunchScreen.storyboard */; };
 		7EACBA5E1C2558C400D05FCF /* what_todoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EACBA5D1C2558C400D05FCF /* what_todoTests.swift */; };
+		7EACBA6A1C2559FB00D05FCF /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EACBA681C2559FB00D05FCF /* Realm.framework */; };
+		7EACBA6B1C2559FB00D05FCF /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7EACBA681C2559FB00D05FCF /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7EACBA6C1C2559FB00D05FCF /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EACBA691C2559FB00D05FCF /* RealmSwift.framework */; };
+		7EACBA6D1C2559FB00D05FCF /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7EACBA691C2559FB00D05FCF /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7EACBA701C255ABA00D05FCF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EACBA6F1C255ABA00D05FCF /* Task.swift */; };
+		7EACBA721C255D4E00D05FCF /* Museo300-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7EACBA711C255D4E00D05FCF /* Museo300-Regular.otf */; };
+		7EACBA751C259F2C00D05FCF /* EditTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EACBA741C259F2C00D05FCF /* EditTaskViewController.swift */; };
+		7EACBA771C25A4CC00D05FCF /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EACBA761C25A4CC00D05FCF /* TaskTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +33,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7EACBA6E1C2559FB00D05FCF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7EACBA6D1C2559FB00D05FCF /* RealmSwift.framework in Embed Frameworks */,
+				7EACBA6B1C2559FB00D05FCF /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		7EACBA451C2558C400D05FCF /* what.todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = what.todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EACBA481C2558C400D05FCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +59,12 @@
 		7EACBA591C2558C400D05FCF /* what.todoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = what.todoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EACBA5D1C2558C400D05FCF /* what_todoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = what_todoTests.swift; sourceTree = "<group>"; };
 		7EACBA5F1C2558C400D05FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EACBA681C2559FB00D05FCF /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		7EACBA691C2559FB00D05FCF /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		7EACBA6F1C255ABA00D05FCF /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		7EACBA711C255D4E00D05FCF /* Museo300-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo300-Regular.otf"; sourceTree = "<group>"; };
+		7EACBA741C259F2C00D05FCF /* EditTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTaskViewController.swift; sourceTree = "<group>"; };
+		7EACBA761C25A4CC00D05FCF /* TaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EACBA6C1C2559FB00D05FCF /* RealmSwift.framework in Frameworks */,
+				7EACBA6A1C2559FB00D05FCF /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +90,12 @@
 		7EACBA3C1C2558C400D05FCF = {
 			isa = PBXGroup;
 			children = (
+				7EACBA6F1C255ABA00D05FCF /* Task.swift */,
+				7EACBA741C259F2C00D05FCF /* EditTaskViewController.swift */,
+				7EACBA761C25A4CC00D05FCF /* TaskTableViewCell.swift */,
+				7EACBA731C255D8C00D05FCF /* Resources */,
+				7EACBA681C2559FB00D05FCF /* Realm.framework */,
+				7EACBA691C2559FB00D05FCF /* RealmSwift.framework */,
 				7EACBA471C2558C400D05FCF /* what.todo */,
 				7EACBA5C1C2558C400D05FCF /* what.todoTests */,
 				7EACBA461C2558C400D05FCF /* Products */,
@@ -77,6 +114,7 @@
 		7EACBA471C2558C400D05FCF /* what.todo */ = {
 			isa = PBXGroup;
 			children = (
+				7EACBA711C255D4E00D05FCF /* Museo300-Regular.otf */,
 				7EACBA481C2558C400D05FCF /* AppDelegate.swift */,
 				7EACBA4A1C2558C400D05FCF /* ViewController.swift */,
 				7EACBA4C1C2558C400D05FCF /* Main.storyboard */,
@@ -96,6 +134,14 @@
 			path = what.todoTests;
 			sourceTree = "<group>";
 		};
+		7EACBA731C255D8C00D05FCF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			path = what.todo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +152,7 @@
 				7EACBA411C2558C400D05FCF /* Sources */,
 				7EACBA421C2558C400D05FCF /* Frameworks */,
 				7EACBA431C2558C400D05FCF /* Resources */,
+				7EACBA6E1C2559FB00D05FCF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,6 +193,7 @@
 				TargetAttributes = {
 					7EACBA441C2558C400D05FCF = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = Q9A9QV83EE;
 					};
 					7EACBA581C2558C400D05FCF = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -179,6 +227,7 @@
 			files = (
 				7EACBA531C2558C400D05FCF /* LaunchScreen.storyboard in Resources */,
 				7EACBA501C2558C400D05FCF /* Assets.xcassets in Resources */,
+				7EACBA721C255D4E00D05FCF /* Museo300-Regular.otf in Resources */,
 				7EACBA4E1C2558C400D05FCF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,7 +247,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EACBA4B1C2558C400D05FCF /* ViewController.swift in Sources */,
+				7EACBA701C255ABA00D05FCF /* Task.swift in Sources */,
+				7EACBA771C25A4CC00D05FCF /* TaskTableViewCell.swift in Sources */,
 				7EACBA491C2558C400D05FCF /* AppDelegate.swift in Sources */,
+				7EACBA751C259F2C00D05FCF /* EditTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +379,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = what.todo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "abhiram.moturi.what-todo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -338,7 +397,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = what.todo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "abhiram.moturi.what-todo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,6 +454,7 @@
 				7EACBA641C2558C400D05FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EACBA651C2558C400D05FCF /* Build configuration list for PBXNativeTarget "what.todoTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +463,7 @@
 				7EACBA671C2558C400D05FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
